@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA3242F22D02F4D00127574 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA3242E22D02F4D00127574 /* GLUT.framework */; };
+		FDA3243122D02F5500127574 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA3243022D02F5500127574 /* OpenGL.framework */; };
+		FDA3243F22D02F8200127574 /* SelectionState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243322D02F8100127574 /* SelectionState.cpp */; };
+		FDA3244022D02F8200127574 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243422D02F8100127574 /* main.cpp */; };
+		FDA3244122D02F8200127574 /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243822D02F8200127574 /* Board.cpp */; };
+		FDA3244222D02F8200127574 /* AIState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243922D02F8200127574 /* AIState.cpp */; };
+		FDA3244322D02F8200127574 /* PieceStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243B22D02F8200127574 /* PieceStack.cpp */; };
+		FDA3244422D02F8200127574 /* GameController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243C22D02F8200127574 /* GameController.cpp */; };
+		FDA3244522D02F8200127574 /* Piece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243D22D02F8200127574 /* Piece.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDA3242122D02F1F00127574 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FDA3242322D02F1F00127574 /* Lasca Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lasca Game"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA3242E22D02F4D00127574 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		FDA3243022D02F5500127574 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		FDA3243222D02F8100127574 /* Piece.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Piece.hpp; path = ../../GlTest/GlTest/Piece.hpp; sourceTree = "<group>"; };
+		FDA3243322D02F8100127574 /* SelectionState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SelectionState.cpp; path = ../../GlTest/GlTest/SelectionState.cpp; sourceTree = "<group>"; };
+		FDA3243422D02F8100127574 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../GlTest/GlTest/main.cpp; sourceTree = "<group>"; };
+		FDA3243522D02F8100127574 /* SelectionState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SelectionState.hpp; path = ../../GlTest/GlTest/SelectionState.hpp; sourceTree = "<group>"; };
+		FDA3243622D02F8100127574 /* AIState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AIState.hpp; path = ../../GlTest/GlTest/AIState.hpp; sourceTree = "<group>"; };
+		FDA3243722D02F8100127574 /* GameController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GameController.hpp; path = ../../GlTest/GlTest/GameController.hpp; sourceTree = "<group>"; };
+		FDA3243822D02F8200127574 /* Board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Board.cpp; path = ../../GlTest/GlTest/Board.cpp; sourceTree = "<group>"; };
+		FDA3243922D02F8200127574 /* AIState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AIState.cpp; path = ../../GlTest/GlTest/AIState.cpp; sourceTree = "<group>"; };
+		FDA3243A22D02F8200127574 /* Board.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Board.hpp; path = ../../GlTest/GlTest/Board.hpp; sourceTree = "<group>"; };
+		FDA3243B22D02F8200127574 /* PieceStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PieceStack.cpp; path = ../../GlTest/GlTest/PieceStack.cpp; sourceTree = "<group>"; };
+		FDA3243C22D02F8200127574 /* GameController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameController.cpp; path = ../../GlTest/GlTest/GameController.cpp; sourceTree = "<group>"; };
+		FDA3243D22D02F8200127574 /* Piece.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Piece.cpp; path = ../../GlTest/GlTest/Piece.cpp; sourceTree = "<group>"; };
+		FDA3243E22D02F8200127574 /* PieceStack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PieceStack.hpp; path = ../../GlTest/GlTest/PieceStack.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA3242022D02F1F00127574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA3243122D02F5500127574 /* OpenGL.framework in Frameworks */,
+				FDA3242F22D02F4D00127574 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA3241A22D02F1F00127574 = {
+			isa = PBXGroup;
+			children = (
+				FDA3242522D02F1F00127574 /* Lasca Game */,
+				FDA3242422D02F1F00127574 /* Products */,
+				FDA3242D22D02F4C00127574 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA3242422D02F1F00127574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA3242322D02F1F00127574 /* Lasca Game */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA3242522D02F1F00127574 /* Lasca Game */ = {
+			isa = PBXGroup;
+			children = (
+				FDA3243922D02F8200127574 /* AIState.cpp */,
+				FDA3243622D02F8100127574 /* AIState.hpp */,
+				FDA3243822D02F8200127574 /* Board.cpp */,
+				FDA3243A22D02F8200127574 /* Board.hpp */,
+				FDA3243C22D02F8200127574 /* GameController.cpp */,
+				FDA3243722D02F8100127574 /* GameController.hpp */,
+				FDA3243422D02F8100127574 /* main.cpp */,
+				FDA3243D22D02F8200127574 /* Piece.cpp */,
+				FDA3243222D02F8100127574 /* Piece.hpp */,
+				FDA3243B22D02F8200127574 /* PieceStack.cpp */,
+				FDA3243E22D02F8200127574 /* PieceStack.hpp */,
+				FDA3243322D02F8100127574 /* SelectionState.cpp */,
+				FDA3243522D02F8100127574 /* SelectionState.hpp */,
+			);
+			path = "Lasca Game";
+			sourceTree = "<group>";
+		};
+		FDA3242D22D02F4C00127574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDA3243022D02F5500127574 /* OpenGL.framework */,
+				FDA3242E22D02F4D00127574 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA3242222D02F1F00127574 /* Lasca Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA3242A22D02F1F00127574 /* Build configuration list for PBXNativeTarget "Lasca Game" */;
+			buildPhases = (
+				FDA3241F22D02F1F00127574 /* Sources */,
+				FDA3242022D02F1F00127574 /* Frameworks */,
+				FDA3242122D02F1F00127574 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lasca Game";
+			productName = "Lasca Game";
+			productReference = FDA3242322D02F1F00127574 /* Lasca Game */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA3241B22D02F1F00127574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Pietro Ribeiro Pepe";
+				TargetAttributes = {
+					FDA3242222D02F1F00127574 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FDA3241E22D02F1F00127574 /* Build configuration list for PBXProject "Lasca Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDA3241A22D02F1F00127574;
+			productRefGroup = FDA3242422D02F1F00127574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA3242222D02F1F00127574 /* Lasca Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA3241F22D02F1F00127574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA3244522D02F8200127574 /* Piece.cpp in Sources */,
+				FDA3243F22D02F8200127574 /* SelectionState.cpp in Sources */,
+				FDA3244422D02F8200127574 /* GameController.cpp in Sources */,
+				FDA3244122D02F8200127574 /* Board.cpp in Sources */,
+				FDA3244022D02F8200127574 /* main.cpp in Sources */,
+				FDA3244222D02F8200127574 /* AIState.cpp in Sources */,
+				FDA3244322D02F8200127574 /* PieceStack.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDA3242822D02F1F00127574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDA3242922D02F1F00127574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDA3242B22D02F1F00127574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JY5QPLHQ9Y;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDA3242C22D02F1F00127574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JY5QPLHQ9Y;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA3241E22D02F1F00127574 /* Build configuration list for PBXProject "Lasca Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA3242822D02F1F00127574 /* Debug */,
+				FDA3242922D02F1F00127574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA3242A22D02F1F00127574 /* Build configuration list for PBXNativeTarget "Lasca Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA3242B22D02F1F00127574 /* Debug */,
+				FDA3242C22D02F1F00127574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA3241B22D02F1F00127574 /* Project object */;
+}
