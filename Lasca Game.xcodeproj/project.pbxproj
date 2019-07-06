@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		FDA3242F22D02F4D00127574 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA3242E22D02F4D00127574 /* GLUT.framework */; };
 		FDA3243122D02F5500127574 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA3243022D02F5500127574 /* OpenGL.framework */; };
-		FDA3243F22D02F8200127574 /* SelectionState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243322D02F8100127574 /* SelectionState.cpp */; };
-		FDA3244022D02F8200127574 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243422D02F8100127574 /* main.cpp */; };
-		FDA3244122D02F8200127574 /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243822D02F8200127574 /* Board.cpp */; };
-		FDA3244222D02F8200127574 /* AIState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243922D02F8200127574 /* AIState.cpp */; };
-		FDA3244322D02F8200127574 /* PieceStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243B22D02F8200127574 /* PieceStack.cpp */; };
-		FDA3244422D02F8200127574 /* GameController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243C22D02F8200127574 /* GameController.cpp */; };
-		FDA3244522D02F8200127574 /* Piece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3243D22D02F8200127574 /* Piece.cpp */; };
+		FDA3245F22D042E800127574 /* PieceStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3245422D042E700127574 /* PieceStack.cpp */; };
+		FDA3246022D042E800127574 /* GameController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3245522D042E700127574 /* GameController.cpp */; };
+		FDA3246122D042E800127574 /* SelectionState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3245622D042E700127574 /* SelectionState.cpp */; };
+		FDA3246222D042E800127574 /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3245B22D042E800127574 /* Board.cpp */; };
+		FDA3246322D042E800127574 /* Piece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3245C22D042E800127574 /* Piece.cpp */; };
+		FDA3246422D042E800127574 /* AIState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3245E22D042E800127574 /* AIState.cpp */; };
+		FDA3246622D0430F00127574 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA3246522D0430F00127574 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,19 +34,19 @@
 		FDA3242322D02F1F00127574 /* Lasca Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lasca Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA3242E22D02F4D00127574 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		FDA3243022D02F5500127574 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		FDA3243222D02F8100127574 /* Piece.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Piece.hpp; path = ../../GlTest/GlTest/Piece.hpp; sourceTree = "<group>"; };
-		FDA3243322D02F8100127574 /* SelectionState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SelectionState.cpp; path = ../../GlTest/GlTest/SelectionState.cpp; sourceTree = "<group>"; };
-		FDA3243422D02F8100127574 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../GlTest/GlTest/main.cpp; sourceTree = "<group>"; };
-		FDA3243522D02F8100127574 /* SelectionState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SelectionState.hpp; path = ../../GlTest/GlTest/SelectionState.hpp; sourceTree = "<group>"; };
-		FDA3243622D02F8100127574 /* AIState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AIState.hpp; path = ../../GlTest/GlTest/AIState.hpp; sourceTree = "<group>"; };
-		FDA3243722D02F8100127574 /* GameController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GameController.hpp; path = ../../GlTest/GlTest/GameController.hpp; sourceTree = "<group>"; };
-		FDA3243822D02F8200127574 /* Board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Board.cpp; path = ../../GlTest/GlTest/Board.cpp; sourceTree = "<group>"; };
-		FDA3243922D02F8200127574 /* AIState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AIState.cpp; path = ../../GlTest/GlTest/AIState.cpp; sourceTree = "<group>"; };
-		FDA3243A22D02F8200127574 /* Board.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Board.hpp; path = ../../GlTest/GlTest/Board.hpp; sourceTree = "<group>"; };
-		FDA3243B22D02F8200127574 /* PieceStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PieceStack.cpp; path = ../../GlTest/GlTest/PieceStack.cpp; sourceTree = "<group>"; };
-		FDA3243C22D02F8200127574 /* GameController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameController.cpp; path = ../../GlTest/GlTest/GameController.cpp; sourceTree = "<group>"; };
-		FDA3243D22D02F8200127574 /* Piece.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Piece.cpp; path = ../../GlTest/GlTest/Piece.cpp; sourceTree = "<group>"; };
-		FDA3243E22D02F8200127574 /* PieceStack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PieceStack.hpp; path = ../../GlTest/GlTest/PieceStack.hpp; sourceTree = "<group>"; };
+		FDA3245322D042E700127574 /* AIState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AIState.hpp; sourceTree = "<group>"; };
+		FDA3245422D042E700127574 /* PieceStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PieceStack.cpp; sourceTree = "<group>"; };
+		FDA3245522D042E700127574 /* GameController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameController.cpp; sourceTree = "<group>"; };
+		FDA3245622D042E700127574 /* SelectionState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionState.cpp; sourceTree = "<group>"; };
+		FDA3245722D042E700127574 /* SelectionState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SelectionState.hpp; sourceTree = "<group>"; };
+		FDA3245822D042E800127574 /* GameController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameController.hpp; sourceTree = "<group>"; };
+		FDA3245922D042E800127574 /* Board.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Board.hpp; sourceTree = "<group>"; };
+		FDA3245A22D042E800127574 /* Piece.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Piece.hpp; sourceTree = "<group>"; };
+		FDA3245B22D042E800127574 /* Board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cpp; sourceTree = "<group>"; };
+		FDA3245C22D042E800127574 /* Piece.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Piece.cpp; sourceTree = "<group>"; };
+		FDA3245D22D042E800127574 /* PieceStack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PieceStack.hpp; sourceTree = "<group>"; };
+		FDA3245E22D042E800127574 /* AIState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AIState.cpp; sourceTree = "<group>"; };
+		FDA3246522D0430F00127574 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,19 +82,19 @@
 		FDA3242522D02F1F00127574 /* Lasca Game */ = {
 			isa = PBXGroup;
 			children = (
-				FDA3243922D02F8200127574 /* AIState.cpp */,
-				FDA3243622D02F8100127574 /* AIState.hpp */,
-				FDA3243822D02F8200127574 /* Board.cpp */,
-				FDA3243A22D02F8200127574 /* Board.hpp */,
-				FDA3243C22D02F8200127574 /* GameController.cpp */,
-				FDA3243722D02F8100127574 /* GameController.hpp */,
-				FDA3243422D02F8100127574 /* main.cpp */,
-				FDA3243D22D02F8200127574 /* Piece.cpp */,
-				FDA3243222D02F8100127574 /* Piece.hpp */,
-				FDA3243B22D02F8200127574 /* PieceStack.cpp */,
-				FDA3243E22D02F8200127574 /* PieceStack.hpp */,
-				FDA3243322D02F8100127574 /* SelectionState.cpp */,
-				FDA3243522D02F8100127574 /* SelectionState.hpp */,
+				FDA3245E22D042E800127574 /* AIState.cpp */,
+				FDA3245322D042E700127574 /* AIState.hpp */,
+				FDA3245B22D042E800127574 /* Board.cpp */,
+				FDA3245922D042E800127574 /* Board.hpp */,
+				FDA3245522D042E700127574 /* GameController.cpp */,
+				FDA3245822D042E800127574 /* GameController.hpp */,
+				FDA3245C22D042E800127574 /* Piece.cpp */,
+				FDA3245A22D042E800127574 /* Piece.hpp */,
+				FDA3245422D042E700127574 /* PieceStack.cpp */,
+				FDA3245D22D042E800127574 /* PieceStack.hpp */,
+				FDA3245622D042E700127574 /* SelectionState.cpp */,
+				FDA3245722D042E700127574 /* SelectionState.hpp */,
+				FDA3246522D0430F00127574 /* main.cpp */,
 			);
 			path = "Lasca Game";
 			sourceTree = "<group>";
@@ -164,13 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA3244522D02F8200127574 /* Piece.cpp in Sources */,
-				FDA3243F22D02F8200127574 /* SelectionState.cpp in Sources */,
-				FDA3244422D02F8200127574 /* GameController.cpp in Sources */,
-				FDA3244122D02F8200127574 /* Board.cpp in Sources */,
-				FDA3244022D02F8200127574 /* main.cpp in Sources */,
-				FDA3244222D02F8200127574 /* AIState.cpp in Sources */,
-				FDA3244322D02F8200127574 /* PieceStack.cpp in Sources */,
+				FDA3245F22D042E800127574 /* PieceStack.cpp in Sources */,
+				FDA3246422D042E800127574 /* AIState.cpp in Sources */,
+				FDA3246022D042E800127574 /* GameController.cpp in Sources */,
+				FDA3246322D042E800127574 /* Piece.cpp in Sources */,
+				FDA3246622D0430F00127574 /* main.cpp in Sources */,
+				FDA3246222D042E800127574 /* Board.cpp in Sources */,
+				FDA3246122D042E800127574 /* SelectionState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
